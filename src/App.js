@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./styles.css";
 
+import Card from "./Card";
+
 var url = `https://api.openweathermap.org/data/2.5/forecast?units=imperial&q=miami&appid=85f48bfed6f16f0b4ac5840f56199b17`;
 
 var url1 = `https://swapi.dev/api/`;
